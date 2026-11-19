@@ -1,0 +1,8 @@
+{
+  "name": "npc-cognition-public-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline NPC speech proposal validation demo",
+  "scripts": { "test": "node --test", "demo": "node demo.js" },
+  "engines": { "node": ">=20" }
+}
