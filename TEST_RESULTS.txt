@@ -1,0 +1,111 @@
+Local verification: 2026-11-20 (Asia/Saigon)
+Node: v22.23.4
+Command: node --test
+Exit code: 0
+
+TAP version 13
+# Subtest: context excludes private memories and player knowledge
+ok 1 - context excludes private memories and player knowledge
+  ---
+  duration_ms: 1.8195
+  type: 'test'
+  ...
+# Subtest: valid disagreement is accepted without changing original world
+ok 2 - valid disagreement is accepted without changing original world
+  ---
+  duration_ms: 1.1539
+  type: 'test'
+  ...
+# Subtest: rejects extra world patch
+ok 3 - rejects extra world patch
+  ---
+  duration_ms: 0.3194
+  type: 'test'
+  ...
+# Subtest: rejects wrong speaker
+ok 4 - rejects wrong speaker
+  ---
+  duration_ms: 0.2342
+  type: 'test'
+  ...
+# Subtest: rejects invented evidence
+ok 5 - rejects invented evidence
+  ---
+  duration_ms: 0.4252
+  type: 'test'
+  ...
+# Subtest: rejects invented priority
+ok 6 - rejects invented priority
+  ---
+  duration_ms: 0.1373
+  type: 'test'
+  ...
+# Subtest: rejects markup
+ok 7 - rejects markup
+  ---
+  duration_ms: 0.2257
+  type: 'test'
+  ...
+# Subtest: rejects oversized speech
+ok 8 - rejects oversized speech
+  ---
+  duration_ms: 0.1308
+  type: 'test'
+  ...
+# Subtest: rejects empty speech
+ok 9 - rejects empty speech
+  ---
+  duration_ms: 0.4107
+  type: 'test'
+  ...
+# Subtest: rejects invalid stance
+ok 10 - rejects invalid stance
+  ---
+  duration_ms: 0.3837
+  type: 'test'
+  ...
+# Subtest: malformed JSON is rejected
+ok 11 - malformed JSON is rejected
+  ---
+  duration_ms: 0.2495
+  type: 'test'
+  ...
+# Subtest: movement invalidates a proposal
+ok 12 - movement invalidates a proposal
+  ---
+  duration_ms: 0.1696
+  type: 'test'
+  ...
+# Subtest: resentment requires a boundary-aware response
+ok 13 - resentment requires a boundary-aware response
+  ---
+  duration_ms: 0.1929
+  type: 'test'
+  ...
+# Subtest: commit archives speech without granting items or knowledge, and rejects replay
+ok 14 - commit archives speech without granting items or knowledge, and rejects replay
+  ---
+  duration_ms: 0.2736
+  type: 'test'
+  ...
+# Subtest: dialogue is isolated by speaker and survives JSON save/load
+ok 15 - dialogue is isolated by speaker and survives JSON save/load
+  ---
+  duration_ms: 0.1958
+  type: 'test'
+  ...
+# Subtest: archive and prompt stay bounded after many turns
+ok 16 - archive and prompt stay bounded after many turns
+  ---
+  duration_ms: 6.1558
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 112.4278
